@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/polymer.css">
+        <script src="https://unpkg.com/@webcomponents/webcomponentsjs@latest/webcomponents-loader.js"></script>
+        <script type="module" src="/js/polymer.js"></script>
+    </head>
+<body>
+      <div class="title">Navigation</div>
+
+      <hr>
+      0:<br/>
+      <counter-comp color="red" background="black" fontWeight="700"></counter-comp>
+      <hr>
+
+      1:<br/>
+      <counter-comp total="1" color="blue" background="orange" fontWeight="700">
+      <label slot="header">Title 1</label>
+      <p slot="content">Content 1</p>
+      </counter-comp>
+      <hr>
+
+      2:<br/>
+      <counter-comp total="2" color="red" background="black" fontWeight="700">
+          <label slot="header">Life's good</label>
+      </counter-comp>
+
+    </body>
+</html>
